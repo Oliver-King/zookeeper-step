@@ -13,10 +13,10 @@ import org.slf4j.LoggerFactory;
  */
 public class ProgrammaticallyConfigYardTest {
 	private final static Logger logger = LoggerFactory
-			.getLogger(ProgrammaticallyConfigYard.class);
+			.getLogger(ProgrammaticallyConfigYardTest.class);
 
 	public static void main(String[] args) {
-		ProgrammaticallyConfigYard yard = new ProgrammaticallyConfigYard("host:port");
+		ProgrammaticallyConfigYard yard = new ProgrammaticallyConfigYard("127.0.0.1:2181");
 		yard.add("testKey1", "1");
 		yard.add("testKey2", "2");
 		yard.add("testKey3", "3");

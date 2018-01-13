@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
  */
 public class ProgrammaticallyConfigYard implements ConfigYard {
 	private final static Logger logger = LoggerFactory
-			.getLogger(ProgrammaticallyConfigYardTest.class);
+			.getLogger(ProgrammaticallyConfigYard.class);
 	/**
 	 * 存储配置内容
 	 */

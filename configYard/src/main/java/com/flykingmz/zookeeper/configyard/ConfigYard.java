@@ -14,7 +14,7 @@ public interface ConfigYard {
 	/**
 	 * 配置平台根节点名称
 	 */
-	static String yardRoot = "/yard";
+	String yardRoot = "/yard";
 	
 	/**
 	 * 初始化配置
